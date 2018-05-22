@@ -1,0 +1,21 @@
+version: '2'
+services:
+  db:
+    image: postgres:9-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=gp-analytics
+      - DB_HOST=localhost
+  api-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8080:8080"
+    network_mode: "host"
+    volumes:
+      - .:/www
+      - /www/node_modules

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerBottomMenu should renders as expected 1`] = `
+<div>
+  <withStyles(List)
+    onClick={[Function]}
+  >
+    <DrawerMenuItem
+      key="bottom_testItem1"
+      label="testItem1"
+    />
+  </withStyles(List)>
+  <withStyles(Divider) />
+</div>
+`;

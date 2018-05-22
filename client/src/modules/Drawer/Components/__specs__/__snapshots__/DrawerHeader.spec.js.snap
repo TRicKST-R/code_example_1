@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerHeader should renders as expected 1`] = `
+<div
+  className="drawerHeader"
+>
+  <withStyles(ListItem)
+    button={true}
+    onClick={[Function]}
+  >
+    <withStyles(Avatar)>
+      <pure(AccountCircle) />
+    </withStyles(Avatar)>
+    <withStyles(ListItemText)
+      classes={
+        Object {
+          "root": "avatarText",
+          "text": "listItemText",
+        }
+      }
+      primary="primary"
+      secondary="secondary"
+    />
+  </withStyles(ListItem)>
+  <withStyles(Divider) />
+</div>
+`;

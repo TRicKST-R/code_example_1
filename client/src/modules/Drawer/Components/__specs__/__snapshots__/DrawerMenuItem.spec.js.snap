@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerMenuItem should renders as expected 1`] = `
+<withStyles(ListItem)
+  button={true}
+  onClick={[Function]}
+>
+  <withStyles(ListItemIcon)>
+    <mockConstructor />
+  </withStyles(ListItemIcon)>
+  <withStyles(ListItemText)
+    primary="test"
+  />
+</withStyles(ListItem)>
+`;

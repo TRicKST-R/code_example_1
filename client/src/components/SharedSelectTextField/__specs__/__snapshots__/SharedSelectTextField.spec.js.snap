@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SharedSelectTextField /> should renders as expected 1`] = `
+<TextField
+  InputLabelProps={
+    Object {
+      "className": "inputStyles",
+      "shrink": true,
+    }
+  }
+  SelectProps={
+    Object {
+      "MenuProps": Object {
+        "PaperProps": Object {
+          "style": Object {
+            "maxHeight": 208,
+          },
+        },
+      },
+    }
+  }
+  disabled={false}
+  fullWidth={true}
+  id="select-currency"
+  label="label"
+  margin="normal"
+  onChange={[Function]}
+  required={false}
+  select={true}
+  type="text"
+  value="value"
+>
+  <withStyles(MenuItem)
+    key="0"
+    value="value"
+  >
+    label
+  </withStyles(MenuItem)>
+</TextField>
+`;

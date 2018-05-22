@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveDrawer /> should renders as expected 1`] = `
+<div>
+  <Hidden
+    implementation="js"
+    lgDown={false}
+    lgUp={false}
+    mdDown={false}
+    mdUp={false}
+    smDown={false}
+    smUp={false}
+    xlDown={false}
+    xlUp={false}
+    xsDown={false}
+    xsUp={false}
+  >
+    <withStyles(Drawer)
+      classes={
+        Object {
+          "paper": "drawerPaper",
+        }
+      }
+      onRequestClose={[Function]}
+      open={true}
+      type="temporary"
+    >
+      <div
+        className="flexWrapper"
+      >
+        <withStyles(HeaderBlock)
+          primary="Name SurnameName Surname"
+          secondary="surname@gmail.comsurname@gmail.com"
+          toggleHiddenBlock={[Function]}
+        />
+        <withStyles(HiddenBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Settings",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+        <withStyles(CenterBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Home",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "Demo app",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "About",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "Dialog",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+        <withStyles(BottomBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Sign out",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+      </div>
+    </withStyles(Drawer)>
+  </Hidden>
+  <Hidden
+    implementation="css"
+    lgDown={false}
+    lgUp={false}
+    mdDown={true}
+    mdUp={false}
+    smDown={false}
+    smUp={false}
+    xlDown={false}
+    xlUp={false}
+    xsDown={false}
+    xsUp={false}
+  >
+    <div
+      className="inside"
+    />
+    <withStyles(Drawer)
+      classes={
+        Object {
+          "paper": "drawerPaper",
+        }
+      }
+      open={true}
+      type="persistent"
+    >
+      <div
+        className="flexWrapper"
+      >
+        <withStyles(HeaderBlock)
+          primary="Name SurnameName Surname"
+          secondary="surname@gmail.comsurname@gmail.com"
+          toggleHiddenBlock={[Function]}
+        />
+        <withStyles(HiddenBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Settings",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+        <withStyles(CenterBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Home",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "Demo app",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "About",
+                "onClick": [Function],
+              },
+              Object {
+                "Icon": [Function],
+                "label": "Dialog",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+        <withStyles(BottomBlock)
+          items={
+            Array [
+              Object {
+                "Icon": [Function],
+                "label": "Sign out",
+                "onClick": [Function],
+              },
+            ]
+          }
+          opened={true}
+          toggleDrawer={[Function]}
+        />
+      </div>
+    </withStyles(Drawer)>
+  </Hidden>
+</div>
+`;
